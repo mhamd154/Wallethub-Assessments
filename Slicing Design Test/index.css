@@ -1,0 +1,235 @@
+html, body, div, span,a, table{
+    font-family: proxima !important;
+}
+
+@font-face {
+    font-family: proxima;
+    src: url('./Proxima Nova/ProximaNova-Reg.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: proxima;
+    src: url('./Proxima Nova/ProximaNova-Bold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: proxima;
+    src: url('./Proxima Nova/ProximaNova-Extrabold.otf');
+    font-weight: 700;
+}
+
+body{
+    margin: 0;
+}
+
+.top-nav {
+    height: 5vh;
+    background-color: #26103C;
+}
+
+.nav-bar{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link{
+    width: 30%;
+    color: black;
+}
+
+.mid-link{
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 10px;
+    width: 30%;
+}
+
+.background-text{
+    font-size: 97px;
+    color: white;
+    font-weight: 700;
+    padding: 60px 65px;
+}
+.mid-section{
+    background-image: url(./img/background-image.svg);
+    height: 80vh;
+    background-color: #26103C;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bottom-section{
+    padding: 60px 80px;
+    background-color: #F0F5F8;
+}
+
+.bottom-header{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000ba;
+}
+
+.details-section{
+    background-color: #fff;
+    padding: 40px 80px;
+    margin-top: 40px;
+}
+.indent1{
+    font-size: 17px;
+}
+
+.indent2{
+    font-size: 8px;
+}
+
+.inner-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.ratings{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 35%;
+}
+
+.list-section{
+    width: 60%;
+}
+
+.approval-section {
+    align-self: flex-start;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    font-size: 10px;
+    width: 45%;
+}
+
+.apply-button{
+    margin-top: 20px;
+    width: 35%;
+}
+
+.button-style{
+    width: 100%;
+    background-color: #FF6327;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+}
+a{
+    color: #0087ff;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+}
+
+.divider{
+    margin: 40px 0 30px;
+}
+
+.list{
+    font-size: 18px;
+}
+
+.list-margin{
+    margin-top: 20px;
+}
+
+.bottom-text{
+    color: #0087ff;
+}
+
+.approval-section button {
+    background-color: #00DBD2;
+    color: white;
+    border: none;
+    padding: 0.02rem;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 85%;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.odds{
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.last-wrap{
+    background-color: #eeeeee;
+    padding: 30px;
+}
+.fill{
+    background-color: #fff;
+    padding: 80px 40px;
+}
+.text-2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px;
+}
+
+@media (max-width: 1148px) {
+    .background-text {
+        font-size: 70px;
+        color: white;
+        font-weight: 700;
+        padding: 60px 65px;
+    }
+}
+
+@media (max-width: 760px) {
+    .background-text {
+        font-size: 50;
+        color: white;
+        font-weight: 700;
+        padding: 60px 65px;
+    }
+}
+
+@media (max-width: 560px) {
+    .background-text {
+        font-size: 50;
+        color: white;
+        font-weight: 700;
+        padding: 60px 65px;
+    }
+
+    .navigation{
+        display: none;
+    }
+}
+
